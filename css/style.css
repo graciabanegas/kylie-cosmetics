@@ -8,10 +8,31 @@ header{
 	background-color: #fff;
 	border-bottom: solid;
 }
+header, .bg-skin{
+	border: none;
+	padding: 12px;
+}
 
 .bg-color{
 	background-color: #000;
 }
+
+.bg-skin{
+	background-color: #e8c3d1;
+}
+
+.bg-baby{
+	background-color:#C7D4E6;
+}
+
+.bg-baby .navbar-nav .nav-link{
+	color: #fff;
+}
+
+.bg-skin .navbar-nav .nav-link{
+	color: #fff;
+}
+
 
 .bg-color .navbar-nav .nav-link{
 	color: #fff;
@@ -419,6 +440,17 @@ span{
 	margin-right: auto;
 }
 
+.kylieskin-header{
+    background-image: url("../img/baby_banner.webp");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 85%;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 0;
+    min-height: 200px;
+}
+
 /*------------------------------------New------------------------------------------*/
 .new-header{
 	background-color: #edacb2;
@@ -477,5 +509,31 @@ span{
 
 /*------------------------------------Best Seller------------------------------------------*/
 
+#baby-head{
+	background-image: url("../img/kylie_stormy_baby.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:top center;
+	padding: 18% 0;
+}
 
+#baby-head .baby_logo{
+	margin-left: 20%;
+	margin-top: -25%;
+}
 
+.las {
+	font-size: 30px;
+}
+
+#skin-head-2{
+	background-image: url("../img/skin_banner_2.webp");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:top center;
+	padding: 25% 0;
+}
+
+.footer-skin{
+	margin-top: 0;
+}
